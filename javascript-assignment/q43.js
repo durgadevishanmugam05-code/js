@@ -1,0 +1,10 @@
+let prices = [199, 129, 98, 78, 11, 171, 1055];
+
+let sum = 0;
+
+for (let i = 1; i < prices.length; i += 2) {
+    sum += prices[i];
+}
+
+console.log(sum);
+
